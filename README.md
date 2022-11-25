@@ -25,7 +25,7 @@
 
 - for using this function write the following code to your own code.
 
-- for calculating the BMI of a man with 77 kg weight and 1.78 m height.
+- for calculating the BMI of a human with 77 kg weight and 1.78 m height.
 
         pkg.calcBMI(77, 1.78)
 

@@ -19,21 +19,19 @@
 
 - for using this function write the following code to your own code.
 
-        cebrify.calcBMI(weight, height)
+- for calculating the BMI of a man with 77 kg weight and 1.78 m height.
+
+        cebrify.calcBMI(77, 1.78)
 
 ## toggler
 
 - for using this function write the following code to your own code.
 
-        cebrify.toggler(actualStatus, value1, value2)
+        cebrify.toggler(development, deployment, development)
 
 ## averageRatingCalc
 
-- for using this function write the following code to your own code.
-
-        cebrify.averageRatingCalc(object)
-
-- Data structure of object must be as follows :
+- Data structure of object has to be as follows :
 
         const data = {
           products: [
@@ -54,11 +52,17 @@
             discountPercentage: 12.96,
             },
 
+- for using this function write the following code to your own code.
+
+          cebrify.averageRatingCalc(data.products)
+
 # exchangeRate
 
 - for using this function write the following code to your own code.
 
-        cebrify.averageRatingCalc(amount, rate, currency, tocurrrency)
+- for exchanging 100 USD to EUR with exchannge rate : 1.14
+
+        cebrify.averageRatingCalc(100, 1.14, "USD", "EUR")
 
 # About npm Packages
 

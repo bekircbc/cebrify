@@ -1,8 +1,8 @@
 {
   "name": "cebrify",
   "version": "1.0.0",
-  "description": "Makes some calculatons easy",
-  "main": "index.js",
+  "description": "Makes some calculations easy",
+  "main": "cebrify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

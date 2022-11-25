@@ -1,5 +1,7 @@
 # About Cebrify
 
+![logo](Cebrify.png)
+
 - Cebrify is a small npm package for calculating some features.
 
 - Cebrify can calculate averages.

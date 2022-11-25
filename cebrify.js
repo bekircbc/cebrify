@@ -1,15 +1,13 @@
-import lodash from "lodash";
-
-exports.calcBMI = function (weight, height) {
+module.exports.calcBMI = function (weight, height) {
   const BMI = weight / height ** 2;
   return BMI;
 };
 
-exports.toggler = function (actualStatus, value1, value2) {
+module.exports.toggler = function (actualStatus, value1, value2) {
   return actualStatus === value1 ? value2 : value1;
 };
 
-exports.averageRatingCalc = function (array) {
+module.exports.averageRatingCalc = function (array) {
   array.forEach(function (element) {
     if (element.reviews.length === 0) element.averageRating = 0;
     else {
@@ -24,7 +22,7 @@ exports.averageRatingCalc = function (array) {
   });
 };
 
-exports.exchangeRate = function (amount, rate, currency, tocurrency) {
+module.exports.exchangeRate = function (amount, rate, currency, tocurrency) {
   let ergebnis = (amount * rate).toFixed(2);
   let text = `${amount} currency to ${tocurrency} with actual ${rate} = ${ergebnis} `;
   return [text, ergebnis];

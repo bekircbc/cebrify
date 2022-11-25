@@ -12,10 +12,14 @@
 
 - cebrify have this functions available.
 
-        cebrify.calcBMI
-        cebrify.toggler
-        cebrify.averageRatingCalc
-        cebrify.exchangeRate
+        import pkg from "cebrify";
+
+        const { calcBMI, toggler, averageRatingCalc, exchangeRate } = pkg;
+
+        pkg.calcBMI
+        pkg.toggler
+        pkg.averageRatingCalc
+        pkg.exchangeRate
 
 ## calcBMI
 
@@ -23,13 +27,13 @@
 
 - for calculating the BMI of a man with 77 kg weight and 1.78 m height.
 
-        cebrify.calcBMI(77, 1.78)
+        pkg.calcBMI(77, 1.78)
 
 ## toggler
 
 - for using this function write the following code to your own code.
 
-        cebrify.toggler(development, deployment, development)
+        pkg.toggler(development, deployment, development)
 
 ## averageRatingCalc
 
@@ -56,7 +60,7 @@
 
 - for using this function write the following code to your own code.
 
-          cebrify.averageRatingCalc(data.products)
+          pkg.averageRatingCalc(data.products)
 
 # exchangeRate
 
@@ -64,7 +68,7 @@
 
 - for exchanging 100 USD to EUR with exchannge rate : 1.14
 
-        cebrify.averageRatingCalc(100, 1.14, "USD", "EUR")
+        pkg.averageRatingCalc(100, 1.14, "USD", "EUR")
 
 # About npm Packages
 

@@ -1,6 +1,6 @@
 {
   "name": "cebrify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Makes some calculations easy",
   "main": "cebrify.js",
   "scripts": {

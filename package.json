@@ -1,0 +1,24 @@
+{
+  "name": "cebrify",
+  "version": "1.0.0",
+  "description": "Makes some calculatons easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bekircbc/cebrify.git"
+  },
+  "keywords": [
+    "calculation",
+    "rechnen",
+    "cebrify"
+  ],
+  "author": "bekircbc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bekircbc/cebrify/issues"
+  },
+  "homepage": "https://github.com/bekircbc/cebrify#readme"
+}

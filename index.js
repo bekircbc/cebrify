@@ -5,20 +5,27 @@ exports.calcBMI = function (weight, height) {
   return BMI;
 };
 
-exports.toggler = function (boolean) {
-  value ? !value : value;
+exports.toggler = function (actualStatus, value1, value2) {
+  return actualStatus === value1 ? value2 : value1;
 };
 
-exports.averageCalc = function (array) {
+exports.averageRatingCalc = function (array) {
   array.forEach(function (element) {
-    if (array.review.length === 0) element.averageRating = 0;
+    if (element.reviews.length === 0) element.averageRating = 0;
     else {
-      const averageRating = Math.ceil(
-        ((element.reviews.reduce((acc, review) => (acc += review.rating), 0) /
-          element.reviews.length) *
-          100) /
-          100
-      );
+      element.averageRating =
+        Math.ceil(
+          (element.reviews.reduce((acc, review) => (acc += review.rating), 0) /
+            element.reviews.length) *
+            100
+        ) / 100;
     }
+    return element.averageRating;
   });
+};
+
+exports.exchangeRate = function (amount, rate, currency, tocurrency) {
+  let ergebnis = (amount * rate).toFixed(2);
+  let text = `${amount} currency to ${tocurrency} with actual ${rate} = ${ergebnis} `;
+  return [text, ergebnis];
 };

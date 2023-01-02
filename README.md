@@ -77,22 +77,6 @@
 
         // Exchange 100 USD to EUR with exchange rate : 1.14
 
-## dateFormatter
-
-- Write the following code for using this function .
-
-        pkg.dateFormatter(19.01.2022)
-
-        // Format date for especially bank apps..
-
-## startLogOutTimer
-
-- Write the following code for using this function .
-
-        pkg.startLogOutTimer(300)
-
-        // Start log out timer for 5 minute
-
 # About npm Packages
 
 - create your own package

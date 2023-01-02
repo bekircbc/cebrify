@@ -35,6 +35,10 @@
 
         pkg.toggler(development, deployment, development)
 
+- togglerBoolean
+
+        pkg.togglerBoolean(isVisible)
+
 ## averageRatingCalc
 
 - Data structure of object has to be as follows :

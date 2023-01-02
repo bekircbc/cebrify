@@ -12,14 +12,17 @@
 
         import pkg from "cebrify";
 
-        const { calcBMI, toggler, averageRatingCalc, exchangeRate } = pkg;
+        const { calcBMI, togglerStatus,togglerBoolean, averageRatingCalc, exchangeRate, dateFormatter, startLogOutTimer } = pkg;
 
 - Cebrify has this functions available.
 
         pkg.calcBMI
-        pkg.toggler
+        pkg.togglerStatus
+        pkg.togglerBoolean
         pkg.averageRatingCalc
         pkg.exchangeRate
+        pkg.dateFormatter
+        pkg.startLogOutTimer
 
 ## calcBMI
 
@@ -33,7 +36,7 @@
 
 - Write the following code for using toggler function .
 
-        pkg.toggler(development, deployment, development)
+        pkg.togglerStatus(development, deployment, development)
 
 - togglerBoolean
 
@@ -66,13 +69,29 @@
 
           pkg.averageRatingCalc(data.products)
 
-# exchangeRate
+## exchangeRate
 
 - Write the following code for using this function .
 
         pkg.averageRatingCalc(100, 1.14, "USD", "EUR")
 
         // Exchange 100 USD to EUR with exchange rate : 1.14
+
+## dateFormatter
+
+- Write the following code for using this function .
+
+        pkg.dateFormatter(19.01.2022)
+
+        // Format date for especially bank apps..
+
+## startLogOutTimer
+
+- Write the following code for using this function .
+
+        pkg.startLogOutTimer(300)
+
+        // Start log out timer for 5 minute
 
 # About npm Packages
 
